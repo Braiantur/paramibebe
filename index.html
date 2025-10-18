@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Nuestros Viajes y Recuerdos 💕</title>
+  <link rel="stylesheet" href="style.css">
+  <script defer src="script.js"></script>
+</head>
+<body class="fondo-principal">
+
+  <div class="overlay"></div>
+
+  <header>
+    <h1>🌍 Nuestros Viajes y Recuerdos 💕</h1>
+    <nav>
+      <button class="nav-btn" data-target="viajes">✈️ Próximos Viajes</button>
+      <a class="nav-link" href="recuerdos.html">📸 Recuerdos</a>
+      <button class="nav-btn" data-target="amor">❤️ Nuestro Amor</button>
+    </nav>
+  </header>
+
+  <!-- Contador siempre visible -->
+  <div id="contador" aria-live="polite">
+    <p>Llevamos juntos:</p>
+    <span id="tiempo">Cargando...</span>
+  </div>
+
+  <main>
+    <!-- Próximos viajes (toda la lista completa) -->
+    <section id="viajes" class="seccion">
+      <h2>✈️ Próximos Viajes</h2>
+
+      <div class="pais">
+        <h3>🇧🇷 Brasil</h3>
+        <ul class="lista-destinos">
+          <li>
+            <strong>Natal</strong>
+            <div class="inputs">
+              <input type="text" placeholder="Gasto estimado..." class="gasto">
+              <input type="url" placeholder="Link del vuelo" class="link">
+              <input type="url" placeholder="Link del hotel" class="link">
+            </div>
+          </li>
+          <li>
+            <strong>Recife</strong>
+            <div class="inputs">
+              <input type="text" placeholder="Gasto estimado..." class="gasto">
+              <input type="url" placeholder="Link del vuelo" class="link">
+              <input type="url" placeholder="Link del hotel" class="link">
+            </div>
+          </li>
+        </ul>
+      </div>
+
+      <div class="pais">
+        <h3>🇨🇴 Colombia</h3>
+        <ul class="lista-destinos">
+          <li>
+            <strong>Bogotá</strong>
+            <div class="inputs">
+              <input type="text" placeholder="Gasto estimado..." class="gasto">
+              <input type="url" placeholder="Link del vuelo" class="link">
+              <input type="url" placeholder="Link del hotel" class="link">
+            </div>
+          </li>
+          <li>
+            <strong>Cartagena</strong>
+            <div class="inputs">
+              <input type="text" placeholder="Gasto estimado..." class="gasto">
+              <input type="url" placeholder="Link del vuelo" class="link">
+              <input type="url" placeholder="Link del hotel" class="link">
+            </div>
+          </li>
+        </ul>
+      </div>
+
+      <div class="pais">
+        <h3>🇨🇱 Chile</h3>
+        <ul class="lista-destinos">
+          <li>
+            <strong>Santiago</strong>
+            <div class="inputs">
+              <input type="text" placeholder="Gasto estimado..." class="gasto">
+              <input type="url" placeholder="Link del vuelo" class="link">
+              <input type="url" placeholder="Link del hotel" class="link">
+            </div>
+          </li>
+        </ul>
+      </div>
+
+      <div class="pais">
+        <h3>🇦🇷 Argentina</h3>
+        <ul class="lista-destinos">
+          <li>
+            <strong>Bariloche</strong>
+            <div class="inputs">
+              <input type="text" placeholder="Gasto estimado..." class="gasto">
+              <input type="url" placeholder="Link del vuelo" class="link">
+              <input type="url" placeholder="Link del hotel" class="link">
+            </div>
+          </li>
+          <li>
+            <strong>Mendoza</strong>
+            <div class="inputs">
+              <input type="text" placeholder="Gasto estimado..." class="gasto">
+              <input type="url" placeholder="Link del vuelo" class="link">
+              <input type="url" placeholder="Link del hotel" class="link">
+            </div>
+          </li>
+        </ul>
+      </div>
+
+      <p class="nota">💡 P.D.: para ver fotos y recuerdos, hacé click en <strong>📸 Recuerdos</strong> en el menú.</p>
+    </section>
+
+    <!-- Nuestro amor -->
+    <section id="amor" class="seccion">
+      <h2>❤️ Nuestro Amor</h2>
+      <p class="frase">“Contigo quiero todos los viajes, todos los días y todas las historias.”</p>
+      <div class="mini-galeria">
+        <div class="corazon">💞</div>
+        <div class="corazon">💘</div>
+        <div class="corazon">💝</div>
+      </div>
+      <p class="instruccion"></p>
+    </section>
+  </main>
+
+  <footer>
+    <p>Hecho con amor por Braian 💕</p>
+  </footer>
+
+</body>
+</html>
